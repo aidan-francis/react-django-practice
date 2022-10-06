@@ -40,18 +40,45 @@ body {
   background-color: #ddd;
   color: black;
 }
+
+/* Main column */
+.main {   
+  -ms-flex: 100%; /* IE10 */
+  flex: 100%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
 </style>
 </head>
 <body>
 
   <div class="navbar">
-    <a href="https://google.com">
-      <img src='icon/icon.png'>
-    </a>
-    <a href="./assignment.html">Link</a>
-    <a href="./index.html">H</a>
-    <a href="classroom.google.com" class="right">Google Classroom</a>
+    <a href="index.html">Home</a>
+    <a href="assignment.html">Link</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://totinograce.myschoolapp.com" class="right">Blackbaud</a>
+    <a href="https://classroom.google.com" class="right">Google Classroom</a>
   </div>
-
+  <div class="main">
+    <h2>Assignment Name</h2>
+    <h5>Due Date or Assigned Date:, September 22, 2022</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Maybe Link.</p>
+    <p>This is where we would talk about the super interesting assignment that you have to do. It would grab the instructions from google classroom and the description from Myschoolapp. It might also include links to the assignment.</p>
+    <br>
+    <h2>Assignment Number 2 Name</h2>
+    <h5>Due Date or Assigned Date: Sep 25, 2022</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>This is where we would talk about the super interesting assignment number 2 that you have to do. It would grab the instructions from google classroom and the description from Myschoolapp. It might also include links to assignment number 2.</p>
+  </div>
 </body>
 </html>
